@@ -217,4 +217,11 @@ BTC Mdoel
     }
     return _currentWallet;
 }
+
+- (void)logout
+{
+    self.btcModel = nil;
+    self.ethModel = nil;
+    self.keyChain = nil;
+}
 @end

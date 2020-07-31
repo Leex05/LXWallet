@@ -49,6 +49,8 @@
 {
     
     [SAMKeychain deletePasswordForService:@"service" account:@"account"];
+//    退出清空缓存信息
+    [[LXWalletManager sharedInstance] logout];
     [UIView transitionWithView:[UIApplication sharedApplication].keyWindow duration:0.3f options:UIViewAnimationOptionTransitionCurlUp animations:^{
 
         BOOL oldState = [UIView areAnimationsEnabled];

@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "WalletModel.h"
 #import "Contract.h"
-NS_ASSUME_NONNULL_BEGIN
 /*******
  * 钱包类型
  *******/
@@ -26,6 +25,6 @@ typedef enum : NSUInteger {
 + (NSArray*)wordsArray;
 
 - (NSArray *)generateWordsArray;
+- (void)logout;
 @end
 
-NS_ASSUME_NONNULL_END
