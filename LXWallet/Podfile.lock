@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - LeexTools (0.1.0):
+    - AFNetworking
+    - YYCache
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.1)
+  - MJExtension (3.2.2)
+  - OpenSSL-Universal (1.0.2.20):
+    - OpenSSL-Universal/Static (= 1.0.2.20)
+  - OpenSSL-Universal/Static (1.0.2.20)
+  - SAMKeychain (1.5.3)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - LeexTools
+  - Masonry
+  - MBProgressHUD (= 0.9.1)
+  - MJExtension
+  - OpenSSL-Universal
+  - SAMKeychain
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - LeexTools
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - OpenSSL-Universal
+    - SAMKeychain
+    - YYCache
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  LeexTools: 5697b4dedde315fa3f25c0bb8a73f053d4b81938
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  OpenSSL-Universal: ff34003318d5e1163e9529b08470708e389ffcdd
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: b749ebc668fa59e920e73fd4d91571713b115082
+
+COCOAPODS: 1.9.3

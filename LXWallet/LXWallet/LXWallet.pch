@@ -1,0 +1,30 @@
+//
+//  LXWallet.pch
+//  LXWallet
+//
+//  Created by leex on 2020/7/31.
+//  Copyright © 2020 leex. All rights reserved.
+//
+
+#ifndef LXWallet_pch
+#define LXWallet_pch
+#ifdef __OBJC__
+
+#import "CoreBitcoin.h"
+#import "CoreBitcoin+Categories.h"
+#import <ethers/ethers.h>
+#import <SAMKeychain/SAMKeychain.h>
+#import <LeexTools/LeexTools.h>
+#import "LXWalletManager.h"
+#import "LXTransferManager.h"
+#import "WalletModel.h"
+#import "Contract.h"
+#import <Masonry/Masonry.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJExtension/MJExtension.h>
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LXWallet_pch */
